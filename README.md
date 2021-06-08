@@ -41,6 +41,7 @@ Additional requirements:
     * Uses `fetch` to retrieve the character list after mount
   * One route for rendering the character details component
     * Uses route params to pass the character ID to the character detail page
+    *   This is a colon : the dynamic part of url so it would be <Route path="/people/:characterID"/>
     * Uses `fetch` to retrieve the character details after mount
 * Uses React components that...
     * Are modular/reusable.
